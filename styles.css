@@ -1,0 +1,328 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(images/bg-curvy-desktop.svg);
+  background-color: hsl(218, 28%, 13%);
+  color: white;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+
+/* HEADER AND LANDING*/
+
+.intro, .landing  {
+  background-color: hsl(217, 28%, 15%);
+  position: relative;
+}
+.intro img{
+  margin: 4% 0 0 6%;
+}
+
+
+.intro .menu{
+  width: 25%;
+  position: absolute;
+  bottom: 3%;
+  right: 6%;
+}
+
+.intro .menu span{
+  margin-left: 15%;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.menu-item{
+  color: white;
+}
+
+.menu-item:hover{
+  text-decoration: none;
+  color: hsl(176, 68%, 64%);
+}
+.landing{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  padding-bottom: 5%;
+}
+.img-landing{
+  margin-top: 8%;
+}
+
+.landing-slogan  {
+  width: 50%;
+  line-height: 1.5;
+  margin: 3% auto 0 auto !important;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.landing-desc{
+  width: 35%;
+  margin: 2% auto 0 auto !important;
+  line-height: 1.5;
+  font-size: 1.1rem;
+}
+
+
+.landing-button{
+  margin-top: 2%;
+  background-color: #2FDBF1;
+  font-weight: 700;
+  padding: 16px 80px;
+  border-radius: 60px;
+  border-style: none;
+  color: white;
+  font-size: 0.9rem;
+}
+
+
+.landing-button:hover  {
+  background-color: #76C9D3;
+  color: white;
+}
+
+.curve  {
+  position: absolute;
+  width: 130%;
+  right: -8%;
+  top: 63%;
+  z-index: -2;
+
+}
+
+.body-content{
+  margin-top: 5%;
+}
+
+/*FEATURES*/
+
+.feature-wrap{
+  text-align: center;
+}
+
+
+.feature-name{
+  margin: 3% 0 0 0;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.feature-desc  {
+  width: 45%;
+  margin: 1% auto 10% auto;
+}
+
+
+/*MORE info*/
+.more-info{
+
+}
+
+.row-feature{
+  width: 75%;
+  margin: 0 auto 0 auto;
+  text-align: left;
+}
+.more-info img{
+  width: 40%;
+  float: left;
+  margin-right: 4%;
+  margin-left: 2%;
+}
+.m_i-title{
+  width: 70%;
+  font-size: 2rem;
+  font-weight: 700;
+  padding-top: 4%;
+}
+
+.m_i-desc{
+  margin: 2% 0 0 0;
+  width: 85%;
+}
+
+.link {
+  margin: 2% 0 0 0;
+}
+.link a{
+  color: hsl(176, 68%, 64%) !important;
+}
+
+.link a:hover{
+  color: hsl(226, 68%, 64%) !important;
+  text-decoration: none;
+}
+
+
+/*quotes*/
+.quote-wrap{
+  margin: 15% 0 0 0;
+  text-align: center;
+  position: relative;
+}
+.quote-wrap .img-quote{
+  position: absolute;
+  z-index: -1;
+  top: -17%;
+  left: 7%;
+}
+.block{
+  text-align: left;
+  background-color:hsl(219, 30%, 18%);
+  width:25%;
+  display:inline-block;
+  margin: 0 3% 0 0;
+  padding: 3% 2% 2% 2%;
+
+}
+
+.person{
+  margin-top: 7%;
+}
+
+.person img{
+  margin: 2% 3% 0 0;
+  float: left;
+  width: 8%;
+  border-radius: 50px;
+}
+
+.name{
+  font-weight: 700;
+
+}
+.rank{
+  font-size: 0.6rem;
+
+}
+
+
+/*C2A*/
+.c2a-wrapper{
+  margin: 5% 0 0 0;
+  position: relative;
+}
+
+.c2a  {
+  position: relative;
+  text-align: center;
+  width: 60%;
+  background-color: hsl(217, 28%, 15%);
+  color: white;
+  margin: 0 auto 0 auto;
+  padding: 2% 4% 2% 4%;
+  z-index: 1;
+  top: 100px;
+}
+
+
+.c2a-title{
+
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+
+.c2a-desc{
+  width: 90%;
+  margin: 0 auto 0 auto;
+}
+
+.submited{
+  margin-top: 4%;
+}
+
+.c2a-email{
+  border-radius: 60px;
+  border-style: none;
+  padding: 1.5% 40% 1.5% 2%;
+  margin-right: 3%;
+
+}
+.c2a-button{
+  color: white;
+  background-color: hsl(196, 68%, 64%);
+  border-style: none;
+  padding: 1.5% 4%;
+  border-radius: 60px;
+}
+
+.c2a-button:hover{
+  background-color: hsl(216, 68%, 64%);
+}
+
+
+/*footer*/
+
+footer{
+  z-index: -1;
+  background-color: hsl(216, 53%, 9%);
+  color: white;
+  padding-top: 13%;
+
+}
+
+.fotter-cont{
+  width: 80%;
+  margin: 0 auto 0 auto;
+}
+
+.row-img-first  {
+  display: inline-block;
+  position: relative;
+  top: 22px;
+}
+.text-first-row  {
+  display: inline-block;
+  padding-left: 17%;
+}
+.row-img  {
+  margin-right: 7%;
+}
+
+.inner-row  {
+  margin-bottom: 9%;
+}
+
+
+
+.mt-2  {
+  margin-top: 3%;
+}
+
+.pt-2{
+  padding-top: 2%;
+}
+
+
+.self-info  {
+
+  padding-left: 10%;
+}
+
+.inner-row i{
+  margin-right: 3%;
+}
+
+.icon  {
+  font-size: 16px;
+}
+
+
+
+.water-mark  {
+  margin-top: 5%;
+  margin-right: 5%;
+  text-align: right;
+  font-size: 12px;
+  color: #A0C1C3;
+}
